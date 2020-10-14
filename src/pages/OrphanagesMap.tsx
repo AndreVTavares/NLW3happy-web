@@ -15,10 +15,6 @@ interface IOrphanage {
   name: string;
   latitude: number;
   longitude: number;
-  about: string;
-  instructions: string;
-  opening_hours: string;
-  open_on_weekends: boolean;
 }
 
 const OrphanagesMap = () => {
@@ -61,6 +57,7 @@ const OrphanagesMap = () => {
           <Marker
             icon={mapIcon}
             position={[orphanage.latitude, orphanage.longitude]}
+            key={orphanage.id}
           >
             <Popup
               closeButton={false}
@@ -69,7 +66,7 @@ const OrphanagesMap = () => {
               className="map-popup"
             >
               {orphanage.name}
-              <Link to={`/orphanages/:${orphanage.id}`}>
+              <Link to={`/orphanages/${orphanage.id}`}>
                 <FiArrowRight size={20} color="FFF" />
               </Link>
             </Popup>
