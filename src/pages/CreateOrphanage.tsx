@@ -171,7 +171,7 @@ export default function CreateOrphanage() {
             </div>
 
             <div className="input-block">
-              <label htmlFor="name">Nome</label>
+              <label htmlFor="name">Whatsapp</label>
               <input
                 id="whatsapp"
                 value={whatsapp}
