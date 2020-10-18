@@ -1,7 +1,7 @@
 # NLW3happy-mobile
 
 <h1 align="center">
-<img alt="happy" src="https://github.com/AndreVTavares/NLW3-happy/blob/main/happy.png?raw=true" width="450px">
+  <img alt="happy" src="https://github.com/AndreVTavares/NLW3-happy/blob/main/happy.png?raw=true" width="450px">
 </h1>
 
 
@@ -15,6 +15,13 @@
 
 ## Screens
 
+<h1 align="center">
+  <img alt="happy" src="https://github.com/AndreVTavares/NLW3-happy/blob/main/home-screen-web.png?raw=true" width="550px">
+</h1>
+
+<h1 align="center">
+  <img alt="happy" src="https://github.com/AndreVTavares/NLW3-happy/blob/main/map-screen-web.png?raw=true" width="550px">
+</h1>
 
 
 ### Instalação 
