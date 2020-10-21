@@ -5,6 +5,7 @@ import Landing from './pages/Landing';
 import OrphanagesMap from './pages/OrphanagesMap';
 import CreateOrphanage from './pages/CreateOrphanage';
 import Orphanage from './pages/Orphanage';
+import OrphanageDone from './pages/OrphanageDone';
 
 function Routes() {
   return (
@@ -14,6 +15,7 @@ function Routes() {
         <Route path="/app" component={OrphanagesMap} />
         <Route path="/orphanages/create" component={CreateOrphanage} />
         <Route path="/orphanages/:id" component={Orphanage} />
+        <Route path="/done" component={OrphanageDone} />
       </Switch>
     </BrowserRouter>
   );
